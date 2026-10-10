@@ -1,0 +1,90 @@
+*,
+html{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color:bisque ;
+}
+
+.container{} 
+
+.container-navbar {
+    background-color: rgb(215, 139, 139);
+    height: 20 vh;
+}
+
+.ul-navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.li-navbar{
+    border: 2px solid rgb(109, 29, 0);
+    background-color: rgb(186, 195, 237);
+    list-style-type:none;
+    padding: 20px;
+    margin: 10px;
+}
+
+.li-navbar:hover {
+    background-color:beige;
+    transition:.2s ease-in-out;
+    border-radius:20px;
+}
+
+.a-navbar{
+    color:rgb(164, 48, 87);
+    font-weight:100;
+}
+
+.container-content{
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+   
+}
+
+.a-content{
+    background-color:rgb(134, 29, 29);
+    color:pink;
+    height :40vh;
+    width:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius:20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    height: 25vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.container-footer{
+    background-color: rgb(144, 174, 230);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height : 27vh;
+}
+
+.h1-footer{
+    background-color: darksalmon;
+    font-size: 40px;
+    
+
+}
